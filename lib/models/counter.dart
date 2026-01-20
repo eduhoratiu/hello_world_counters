@@ -17,7 +17,7 @@ class Counter {
   Counter(this.type);
 
   /// The counter value.
-  int _value = 0;
+  var _value = 0;
 
   /// Returns the counter value.
   int get value => _value;

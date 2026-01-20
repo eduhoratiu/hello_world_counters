@@ -7,7 +7,7 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AppSettings {
-  bool _counterTapMode = false;
+  var _counterTapMode = false;
 
   bool get counterTapMode => _counterTapMode;
 

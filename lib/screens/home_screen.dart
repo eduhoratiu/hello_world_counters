@@ -81,19 +81,19 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _onDrawerExtraSelected(DrawerExtraActions item) {
     switch (item) {
-      case DrawerExtraActions.settings:
+      case .settings:
         // Load the Settings screen
         _loadSettingsScreen();
         break;
-      case DrawerExtraActions.about:
+      case .about:
         // Open the app's about page
         utils.launchUrlExternal(context, urls.aboutUrl);
         break;
-      case DrawerExtraActions.starApp:
+      case .starApp:
         // Open the app source code repo url on GitHub to allow the user to star it
         utils.launchUrlExternal(context, urls.starAppUrl);
         break;
-      case DrawerExtraActions.rateApp:
+      case .rateApp:
         // Open the app's rate page
         utils.launchUrlExternal(context, urls.rateAppUrl);
         break;

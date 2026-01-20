@@ -15,7 +15,7 @@ const appName = 'Hello World Counters';
 // App Drawer
 // -----------------------------------------------------------------------------
 
-const String drawerTitle = appName;
+const drawerTitle = appName;
 const settingsItemTitle = 'Settings';
 const aboutItemTitle = 'About this Hello World app';
 const starAppItemTitle = 'Star on GitHub';
